@@ -1,0 +1,80 @@
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+
+.background{
+    height: 60vh;
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
+    
+}
+.info {
+    width: 60%;
+    margin-left:690px;
+    margin-top: 50px;
+    color: aliceblue;
+}
+input {
+    border-radius: 22px;
+    min-width: 250px;
+    width: 50%;
+    margin-right: 12px;
+    border: 1px solid #9999;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+button{
+    border-radius: 22px;
+    color: antiquewhite;
+    margin-right: 12px;
+    border: 1px solid #9999;
+    background: #9999;
+    font-size: 18px;
+    padding: 10px;
+}
+.perfil{
+    display: flex;
+    margin: 40px 0;
+    
+}
+.profile {
+    border-radius: 32px;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    margin-right: 32px;
+
+}
+
+.perfil h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+
+
+}
+.perfil p {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    margin: 20px 0 0 0;
+}
+.perfil span {
+    display: block;
+    font-size: 12px;
+    margin: 0;
+    color: #ffffff;
+}
+.repositorio{
+    font-size: 32px;
+    color: #ffffff;
+    margin: 12px 0;
+    text-align: center;
+
+}
