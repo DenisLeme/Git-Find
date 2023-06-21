@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
         <h1>
-            GitFind
+            Procure por alguem no GitHub
         </h1>
     </header>
   )

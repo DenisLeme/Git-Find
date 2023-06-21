@@ -47,9 +47,9 @@ const handleGetData = async () => {
              className="profile"
              alt="imagem de perfil"/>          
            <div>
-             <h3>Denis Leme</h3>
+             <h3>{currentUser.name}</h3>
              <span>@DenisLeme</span>
-             <p>Desenvolvedor Full-Stack</p>
+             <p>{currentUser.bio}</p>
            </div>
            </div>
            <hr/>
